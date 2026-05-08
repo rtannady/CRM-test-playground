@@ -6,7 +6,7 @@ def parse_with_llm(user_input: str) -> dict:
     Calls Claude to parse a plain English automation request.
     Swap the stub below for a real API call when the key arrives.
     """
-    
+
     # ── STUB — replace this block with the real API call ──────────────
     # import anthropic
     # client = anthropic.Anthropic(api_key="your-key-here")
@@ -48,7 +48,7 @@ if __name__ == "__main__":
         "ping the sales team whenever we close a big one",
         "do something when stuff happens"
     ]
-    
+
     for input_text in test_inputs:
         print(f"\nInput:  {input_text}")
         result = parse_with_llm(input_text)
